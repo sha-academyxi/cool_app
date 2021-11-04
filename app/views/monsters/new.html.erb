@@ -1,0 +1,15 @@
+<h1>New Monster Form</h1>
+
+<%= form_for @monster do |f| %>
+
+<%= f.label :name %><br>
+<%= f.text_field :name %><br>
+
+<%= f.label :size %><br>
+<%= f.text_field :size %><br>
+
+<%= f.label :taxonomy %><br>
+<%= f.text_field :taxonomy %><br>
+
+<%= f.submit 'Create Monster' %>
+<% end %>
